@@ -17,18 +17,6 @@ namespace MySide
         {
             InitializeComponent();
 
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=tcp:myside.database.windows.net,1433;Initial Catalog=mysidedb;Persist Security Info=False;User ID=myside;Password=Myadmin0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-            con.Open();
-            SqlCommand cmd = new SqlCommand("SELECT namahabit FROM dbo.DaftarHabit");
-            SqlDataReader reader = cmd.ExecuteReader();
-            while(reader.Read())
-            {
-                listBox1.Items.Add(reader["namahabit"].ToString());
-            }
-            con.Close();
-
-
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -42,7 +30,17 @@ namespace MySide
         
 private void HabitView_Load(object sender, EventArgs e)
         {
-
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = "Server=tcp:myside.database.windows.net,1433;Initial Catalog=mysidedb;Persist Security Info=False;User ID=myside;Password=Myadmin0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlDataReader reader = null;
+            con.Open();
+            SqlCommand cmd = new SqlCommand("SELECT namahabit FROM [dbo].[DaftarHabit]");
+            reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                listBox1.Items.Add(reader["namahabit"].ToString());
+            }
+            con.Close();
         }
 
         private void btnReminder_Click(object sender, EventArgs e)

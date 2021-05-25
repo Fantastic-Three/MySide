@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ApFyki2sFdk+PdH4S/fmj9u6rdqbFi0RKXmiOprcsgt2DjnYVrGlT2rS12583+/NUs/HLoZN5VMI3wCe2uiLKA==",
+  "dgSpecHash": "bDYI05zmwlfuwe2Nz0tsrVLXV+G7clQ8B94yXyIX7NUgFejSCJTgl+cJ6NwakSPUot8nGKdJS5MYoOkrS+zjFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MARNA\\source\\repos\\MySide\\MySide\\MySide.csproj",
+  "projectFilePath": "C:\\Users\\MARNA\\Source\\Repos\\Fantastic-Three\\MySide\\MySide\\MySide\\MySide.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MARNA\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\MARNA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

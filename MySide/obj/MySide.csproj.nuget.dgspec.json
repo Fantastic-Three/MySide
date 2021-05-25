@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MARNA\\source\\repos\\MySide\\MySide\\MySide.csproj": {}
+    "C:\\Users\\MARNA\\Source\\Repos\\Fantastic-Three\\MySide\\MySide\\MySide\\MySide.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MARNA\\source\\repos\\MySide\\MySide\\MySide.csproj": {
+    "C:\\Users\\MARNA\\Source\\Repos\\Fantastic-Three\\MySide\\MySide\\MySide\\MySide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MARNA\\source\\repos\\MySide\\MySide\\MySide.csproj",
+        "projectUniqueName": "C:\\Users\\MARNA\\Source\\Repos\\Fantastic-Three\\MySide\\MySide\\MySide\\MySide.csproj",
         "projectName": "MySide",
-        "projectPath": "C:\\Users\\MARNA\\source\\repos\\MySide\\MySide\\MySide.csproj",
+        "projectPath": "C:\\Users\\MARNA\\Source\\Repos\\Fantastic-Three\\MySide\\MySide\\MySide\\MySide.csproj",
         "packagesPath": "C:\\Users\\MARNA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MARNA\\source\\repos\\MySide\\MySide\\obj\\",
+        "outputPath": "C:\\Users\\MARNA\\Source\\Repos\\Fantastic-Three\\MySide\\MySide\\MySide\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MARNA\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -23,12 +23,13 @@ namespace MySide
 
         private void HabitForm_Load(object sender, EventArgs e)
         {
-            SqlConnection sqlcon = new SqlConnection(@"Server=tcp:myside.database.windows.net,1433;Initial Catalog=mysidedb;Persist Security Info=False;User ID=myside;Password=Myadmin0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-            sqlcon.Open();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SqlConnection sqlcon = new SqlConnection(@"Server=tcp:myside.database.windows.net,1433;Initial Catalog=mysidedb;Persist Security Info=False;User ID=myside;Password=Myadmin0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            sqlcon.Open(); 
             sqlcon.Open();
             SqlCommand cmd = sqlcon.CreateCommand();
             cmd.CommandType = CommandType.Text;

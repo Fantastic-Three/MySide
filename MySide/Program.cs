@@ -17,7 +17,7 @@ namespace MySide
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HabitForm());
+            Application.Run(new LoadingPage());
         }
     }
 }

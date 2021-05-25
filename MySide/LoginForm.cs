@@ -31,7 +31,7 @@ namespace MySide
                 SqlConnection cn = new SqlConnection();
                 cn.ConnectionString = "Server=tcp:myside.database.windows.net,1433;Initial Catalog=mysidedb;Persist Security Info=False;User ID=myside;Password=Myadmin0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
                 cn.Open();
-                SqlCommand cmd = new SqlCommand("select * from [dbo.User] where Email='" + tbEmail.Text + "' and Password='" + tbPassword.Text + "'", cn);
+                SqlCommand cmd = new SqlCommand("select * from [dbo].[User] where Email='" + tbEmail.Text + "' and Password='" + tbPassword.Text + "'", cn);
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.Read())
                 {
@@ -40,8 +40,7 @@ namespace MySide
                     HabitView habit = new HabitView();
                     habit.ShowDialog();
                     
-                    tbEmail.Text = "";
-                    tbPassword.Text = "";
+                    
                 }
                 else
                 {
