@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp12
+namespace RegistrasiLogin
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace WindowsFormsApp12
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new LoadingPage());
         }
     }
 }
