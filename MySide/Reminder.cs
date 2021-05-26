@@ -56,5 +56,12 @@ namespace MySide
                 MessageBox.Show("Data has been saved");
             }
         }
+
+        private void HomeBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home homeform = new Home();
+            homeform.ShowDialog();
+        }
     }
 }

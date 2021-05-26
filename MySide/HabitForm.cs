@@ -38,5 +38,12 @@ namespace MySide
             sqlcon.Close();
             MessageBox.Show("Data Habit Berhasil Disimpan");
         }
+
+        private void HomeBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home homeform = new Home();
+            homeform.ShowDialog();
+        }
     }
 }

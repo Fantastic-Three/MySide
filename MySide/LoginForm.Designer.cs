@@ -38,6 +38,7 @@ namespace MySide
             this.btnSignin = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.btnSignup = new System.Windows.Forms.Button();
+            this.HomeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -105,7 +106,7 @@ namespace MySide
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(173, 402);
+            this.label4.Location = new System.Drawing.Point(173, 341);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(198, 25);
@@ -114,7 +115,7 @@ namespace MySide
             // 
             // btnSignup
             // 
-            this.btnSignup.Location = new System.Drawing.Point(204, 432);
+            this.btnSignup.Location = new System.Drawing.Point(204, 371);
             this.btnSignup.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSignup.Name = "btnSignup";
             this.btnSignup.Size = new System.Drawing.Size(107, 38);
@@ -123,6 +124,17 @@ namespace MySide
             this.btnSignup.UseVisualStyleBackColor = true;
             this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
             // 
+            // HomeBtn
+            // 
+            this.HomeBtn.Location = new System.Drawing.Point(51, 430);
+            this.HomeBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.Size = new System.Drawing.Size(107, 38);
+            this.HomeBtn.TabIndex = 8;
+            this.HomeBtn.Text = "Home";
+            this.HomeBtn.UseVisualStyleBackColor = true;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
@@ -130,6 +142,7 @@ namespace MySide
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(530, 493);
+            this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnSignin);
@@ -158,5 +171,6 @@ namespace MySide
         private System.Windows.Forms.Button btnSignin;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnSignup;
+        private System.Windows.Forms.Button HomeBtn;
     }
 }

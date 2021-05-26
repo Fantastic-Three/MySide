@@ -41,6 +41,7 @@ namespace MySide
             this.rbMonthly = new System.Windows.Forms.RadioButton();
             this.tbHabitName = new System.Windows.Forms.TextBox();
             this.tbHabitDesc = new System.Windows.Forms.TextBox();
+            this.HomeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -154,12 +155,24 @@ namespace MySide
             this.tbHabitDesc.Size = new System.Drawing.Size(141, 31);
             this.tbHabitDesc.TabIndex = 10;
             // 
+            // HomeBtn
+            // 
+            this.HomeBtn.Location = new System.Drawing.Point(112, 332);
+            this.HomeBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.Size = new System.Drawing.Size(107, 38);
+            this.HomeBtn.TabIndex = 11;
+            this.HomeBtn.Text = "Home";
+            this.HomeBtn.UseVisualStyleBackColor = true;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
+            // 
             // HabitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.ClientSize = new System.Drawing.Size(1143, 750);
+            this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.tbHabitDesc);
             this.Controls.Add(this.tbHabitName);
             this.Controls.Add(this.rbMonthly);
@@ -194,5 +207,6 @@ namespace MySide
         private System.Windows.Forms.RadioButton rbMonthly;
         private System.Windows.Forms.TextBox tbHabitName;
         private System.Windows.Forms.TextBox tbHabitDesc;
+        private System.Windows.Forms.Button HomeBtn;
     }
 }

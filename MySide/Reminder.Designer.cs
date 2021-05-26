@@ -33,6 +33,7 @@ namespace MySide
             this.label1 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.HomeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,12 +67,24 @@ namespace MySide
             this.checkedListBox1.Size = new System.Drawing.Size(384, 228);
             this.checkedListBox1.TabIndex = 3;
             // 
+            // HomeBtn
+            // 
+            this.HomeBtn.Location = new System.Drawing.Point(67, 395);
+            this.HomeBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.Size = new System.Drawing.Size(107, 38);
+            this.HomeBtn.TabIndex = 4;
+            this.HomeBtn.Text = "Home";
+            this.HomeBtn.UseVisualStyleBackColor = true;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
+            // 
             // Reminder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.ClientSize = new System.Drawing.Size(517, 493);
+            this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label1);
@@ -90,5 +103,6 @@ namespace MySide
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Button HomeBtn;
     }
 }

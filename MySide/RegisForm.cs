@@ -63,5 +63,12 @@ namespace MySide
             LoginForm login = new LoginForm();
             login.ShowDialog();
         }
+
+        private void HomeBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home homeform = new Home();
+            homeform.ShowDialog();
+        }
     }
 }

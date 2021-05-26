@@ -34,6 +34,7 @@ namespace MySide
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnReminder = new System.Windows.Forms.Button();
+            this.HomeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -70,7 +71,7 @@ namespace MySide
             // 
             // btnReminder
             // 
-            this.btnReminder.Location = new System.Drawing.Point(70, 403);
+            this.btnReminder.Location = new System.Drawing.Point(194, 403);
             this.btnReminder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReminder.Name = "btnReminder";
             this.btnReminder.Size = new System.Drawing.Size(157, 38);
@@ -79,12 +80,24 @@ namespace MySide
             this.btnReminder.UseVisualStyleBackColor = true;
             this.btnReminder.Click += new System.EventHandler(this.btnReminder_Click);
             // 
+            // HomeBtn
+            // 
+            this.HomeBtn.Location = new System.Drawing.Point(79, 403);
+            this.HomeBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.Size = new System.Drawing.Size(107, 38);
+            this.HomeBtn.TabIndex = 4;
+            this.HomeBtn.Text = "Home";
+            this.HomeBtn.UseVisualStyleBackColor = true;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
+            // 
             // HabitView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.ClientSize = new System.Drawing.Size(530, 478);
+            this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.btnReminder);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.listBox1);
@@ -105,5 +118,6 @@ namespace MySide
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnReminder;
+        private System.Windows.Forms.Button HomeBtn;
     }
 }

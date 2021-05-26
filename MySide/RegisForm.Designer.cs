@@ -41,6 +41,7 @@ namespace MySide
             this.btnSignup = new System.Windows.Forms.Button();
             this.btnSignin = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.HomeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -145,12 +146,24 @@ namespace MySide
             this.label6.TabIndex = 10;
             this.label6.Text = "Let\'s track your new habits!";
             // 
+            // HomeBtn
+            // 
+            this.HomeBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HomeBtn.Location = new System.Drawing.Point(69, 423);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.Size = new System.Drawing.Size(94, 45);
+            this.HomeBtn.TabIndex = 11;
+            this.HomeBtn.Text = "Home";
+            this.HomeBtn.UseVisualStyleBackColor = true;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
+            // 
             // RegisForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.ClientSize = new System.Drawing.Size(530, 493);
+            this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnSignin);
             this.Controls.Add(this.btnSignup);
@@ -185,5 +198,6 @@ namespace MySide
         private System.Windows.Forms.Button btnSignup;
         private System.Windows.Forms.Button btnSignin;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button HomeBtn;
     }
 }
