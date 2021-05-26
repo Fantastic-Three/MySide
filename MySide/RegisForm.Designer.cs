@@ -48,7 +48,7 @@ namespace MySide
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(98, 35);
+            this.label1.Location = new System.Drawing.Point(159, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(313, 45);
             this.label1.TabIndex = 0;
@@ -58,21 +58,21 @@ namespace MySide
             // 
             this.tbEmail.Location = new System.Drawing.Point(219, 148);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(192, 31);
+            this.tbEmail.Size = new System.Drawing.Size(316, 31);
             this.tbEmail.TabIndex = 1;
             // 
             // tbUsername
             // 
             this.tbUsername.Location = new System.Drawing.Point(219, 181);
             this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(192, 31);
+            this.tbUsername.Size = new System.Drawing.Size(316, 31);
             this.tbUsername.TabIndex = 2;
             // 
             // tbPassword
             // 
             this.tbPassword.Location = new System.Drawing.Point(219, 217);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(192, 31);
+            this.tbPassword.Size = new System.Drawing.Size(316, 31);
             this.tbPassword.TabIndex = 3;
             // 
             // label2
@@ -108,7 +108,7 @@ namespace MySide
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(159, 345);
+            this.label5.Location = new System.Drawing.Point(257, 347);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(215, 25);
             this.label5.TabIndex = 7;
@@ -117,7 +117,7 @@ namespace MySide
             // btnSignup
             // 
             this.btnSignup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSignup.Location = new System.Drawing.Point(286, 279);
+            this.btnSignup.Location = new System.Drawing.Point(430, 269);
             this.btnSignup.Name = "btnSignup";
             this.btnSignup.Size = new System.Drawing.Size(105, 35);
             this.btnSignup.TabIndex = 8;
@@ -128,7 +128,7 @@ namespace MySide
             // btnSignin
             // 
             this.btnSignin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSignin.Location = new System.Drawing.Point(219, 373);
+            this.btnSignin.Location = new System.Drawing.Point(317, 375);
             this.btnSignin.Name = "btnSignin";
             this.btnSignin.Size = new System.Drawing.Size(94, 45);
             this.btnSignin.TabIndex = 9;
@@ -140,7 +140,7 @@ namespace MySide
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(133, 93);
+            this.label6.Location = new System.Drawing.Point(219, 91);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(226, 25);
             this.label6.TabIndex = 10;
@@ -149,7 +149,7 @@ namespace MySide
             // HomeBtn
             // 
             this.HomeBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.HomeBtn.Location = new System.Drawing.Point(69, 423);
+            this.HomeBtn.Location = new System.Drawing.Point(33, 447);
             this.HomeBtn.Name = "HomeBtn";
             this.HomeBtn.Size = new System.Drawing.Size(94, 45);
             this.HomeBtn.TabIndex = 11;
@@ -162,7 +162,7 @@ namespace MySide
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
-            this.ClientSize = new System.Drawing.Size(530, 493);
+            this.ClientSize = new System.Drawing.Size(584, 525);
             this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnSignin);

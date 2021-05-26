@@ -40,7 +40,7 @@ namespace MySide
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(139, 42);
+            this.label1.Location = new System.Drawing.Point(174, 49);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(243, 45);
@@ -49,7 +49,7 @@ namespace MySide
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(346, 395);
+            this.btnSave.Location = new System.Drawing.Point(407, 395);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(107, 38);
@@ -64,7 +64,7 @@ namespace MySide
             this.checkedListBox1.Location = new System.Drawing.Point(67, 123);
             this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(384, 228);
+            this.checkedListBox1.Size = new System.Drawing.Size(447, 256);
             this.checkedListBox1.TabIndex = 3;
             // 
             // HomeBtn
@@ -83,7 +83,7 @@ namespace MySide
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
-            this.ClientSize = new System.Drawing.Size(517, 493);
+            this.ClientSize = new System.Drawing.Size(584, 525);
             this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.btnSave);

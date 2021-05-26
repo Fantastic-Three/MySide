@@ -80,7 +80,7 @@ namespace MySide
             this.tbEmail.Location = new System.Drawing.Point(173, 122);
             this.tbEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(288, 31);
+            this.tbEmail.Size = new System.Drawing.Size(349, 31);
             this.tbEmail.TabIndex = 3;
             // 
             // tbPassword
@@ -88,12 +88,12 @@ namespace MySide
             this.tbPassword.Location = new System.Drawing.Point(173, 183);
             this.tbPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(288, 31);
+            this.tbPassword.Size = new System.Drawing.Size(349, 31);
             this.tbPassword.TabIndex = 4;
             // 
             // btnSignin
             // 
-            this.btnSignin.Location = new System.Drawing.Point(356, 232);
+            this.btnSignin.Location = new System.Drawing.Point(415, 224);
             this.btnSignin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSignin.Name = "btnSignin";
             this.btnSignin.Size = new System.Drawing.Size(107, 38);
@@ -106,7 +106,7 @@ namespace MySide
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(173, 341);
+            this.label4.Location = new System.Drawing.Point(233, 316);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(198, 25);
@@ -115,7 +115,7 @@ namespace MySide
             // 
             // btnSignup
             // 
-            this.btnSignup.Location = new System.Drawing.Point(204, 371);
+            this.btnSignup.Location = new System.Drawing.Point(276, 346);
             this.btnSignup.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSignup.Name = "btnSignup";
             this.btnSignup.Size = new System.Drawing.Size(107, 38);
@@ -126,7 +126,7 @@ namespace MySide
             // 
             // HomeBtn
             // 
-            this.HomeBtn.Location = new System.Drawing.Point(51, 430);
+            this.HomeBtn.Location = new System.Drawing.Point(23, 460);
             this.HomeBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.HomeBtn.Name = "HomeBtn";
             this.HomeBtn.Size = new System.Drawing.Size(107, 38);
@@ -141,7 +141,7 @@ namespace MySide
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(530, 493);
+            this.ClientSize = new System.Drawing.Size(584, 525);
             this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.label4);

@@ -55,12 +55,12 @@ namespace MySide
             this.listBox1.Location = new System.Drawing.Point(70, 110);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(394, 279);
+            this.listBox1.Size = new System.Drawing.Size(448, 279);
             this.listBox1.TabIndex = 1;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(359, 403);
+            this.btnAdd.Location = new System.Drawing.Point(411, 403);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(107, 38);
@@ -71,7 +71,7 @@ namespace MySide
             // 
             // btnReminder
             // 
-            this.btnReminder.Location = new System.Drawing.Point(194, 403);
+            this.btnReminder.Location = new System.Drawing.Point(222, 403);
             this.btnReminder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReminder.Name = "btnReminder";
             this.btnReminder.Size = new System.Drawing.Size(157, 38);
@@ -96,7 +96,7 @@ namespace MySide
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
-            this.ClientSize = new System.Drawing.Size(530, 478);
+            this.ClientSize = new System.Drawing.Size(584, 525);
             this.Controls.Add(this.HomeBtn);
             this.Controls.Add(this.btnReminder);
             this.Controls.Add(this.btnAdd);
