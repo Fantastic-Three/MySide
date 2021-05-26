@@ -30,8 +30,8 @@ namespace MySide
             {
                 progressBar.Value = 0;
                 timer1.Stop();
-                RegisForm regis = new RegisForm();
-                regis.Show();
+                Home homeform = new Home();
+                homeform.Show();
                 this.Hide();
             }
         }

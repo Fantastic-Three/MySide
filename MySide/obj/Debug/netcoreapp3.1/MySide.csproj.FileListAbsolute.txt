@@ -88,3 +88,4 @@ C:\Users\Asus\source\repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.csproj.C
 C:\Users\Asus\source\repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.dll
 C:\Users\Asus\source\repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.pdb
 C:\Users\Asus\source\repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.genruntimeconfig.cache
+C:\Users\Asus\Source\Repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.Home.resources
