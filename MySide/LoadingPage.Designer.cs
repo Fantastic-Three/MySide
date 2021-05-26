@@ -70,6 +70,7 @@ namespace MySide
             this.ClientSize = new System.Drawing.Size(1143, 750);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LoadingPage";
             this.Text = "LoadingPage";

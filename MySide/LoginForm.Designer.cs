@@ -29,6 +29,7 @@ namespace MySide
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,9 +44,10 @@ namespace MySide
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(89, 22);
+            this.label1.Location = new System.Drawing.Point(127, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 30);
+            this.label1.Size = new System.Drawing.Size(286, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sign In to MySide";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -54,9 +56,10 @@ namespace MySide
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(33, 71);
+            this.label2.Location = new System.Drawing.Point(47, 118);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 21);
+            this.label2.Size = new System.Drawing.Size(71, 32);
             this.label2.TabIndex = 1;
             this.label2.Text = "Email";
             // 
@@ -64,31 +67,35 @@ namespace MySide
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(33, 108);
+            this.label3.Location = new System.Drawing.Point(47, 180);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 21);
+            this.label3.Size = new System.Drawing.Size(111, 32);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password";
             // 
             // tbEmail
             // 
-            this.tbEmail.Location = new System.Drawing.Point(121, 73);
+            this.tbEmail.Location = new System.Drawing.Point(173, 122);
+            this.tbEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(203, 23);
+            this.tbEmail.Size = new System.Drawing.Size(288, 31);
             this.tbEmail.TabIndex = 3;
             // 
             // tbPassword
             // 
-            this.tbPassword.Location = new System.Drawing.Point(121, 110);
+            this.tbPassword.Location = new System.Drawing.Point(173, 183);
+            this.tbPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(203, 23);
+            this.tbPassword.Size = new System.Drawing.Size(288, 31);
             this.tbPassword.TabIndex = 4;
             // 
             // btnSignin
             // 
-            this.btnSignin.Location = new System.Drawing.Point(249, 139);
+            this.btnSignin.Location = new System.Drawing.Point(356, 232);
+            this.btnSignin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSignin.Name = "btnSignin";
-            this.btnSignin.Size = new System.Drawing.Size(75, 23);
+            this.btnSignin.Size = new System.Drawing.Size(107, 38);
             this.btnSignin.TabIndex = 5;
             this.btnSignin.Text = "Sign In";
             this.btnSignin.UseVisualStyleBackColor = true;
@@ -98,17 +105,19 @@ namespace MySide
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(121, 241);
+            this.label4.Location = new System.Drawing.Point(173, 402);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 15);
+            this.label4.Size = new System.Drawing.Size(198, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Don\'t have an account?";
             // 
             // btnSignup
             // 
-            this.btnSignup.Location = new System.Drawing.Point(143, 259);
+            this.btnSignup.Location = new System.Drawing.Point(204, 432);
+            this.btnSignup.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSignup.Name = "btnSignup";
-            this.btnSignup.Size = new System.Drawing.Size(75, 23);
+            this.btnSignup.Size = new System.Drawing.Size(107, 38);
             this.btnSignup.TabIndex = 7;
             this.btnSignup.Text = "Sign Up";
             this.btnSignup.UseVisualStyleBackColor = true;
@@ -116,11 +125,11 @@ namespace MySide
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(371, 296);
+            this.ClientSize = new System.Drawing.Size(530, 493);
             this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnSignin);
@@ -129,6 +138,8 @@ namespace MySide
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LoginForm";
             this.Text = "LoginForm";
             this.Load += new System.EventHandler(this.LoginForm_Load);

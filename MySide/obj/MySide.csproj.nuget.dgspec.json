@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\source\\repos\\MySide\\MySide\\MySide.csproj": {}
+    "C:\\Users\\Asus\\Source\\Repos\\MySide\\MySide\\MySide.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\source\\repos\\MySide\\MySide\\MySide.csproj": {
+    "C:\\Users\\Asus\\Source\\Repos\\MySide\\MySide\\MySide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\MySide\\MySide\\MySide.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Source\\Repos\\MySide\\MySide\\MySide.csproj",
         "projectName": "MySide",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\MySide\\MySide\\MySide.csproj",
+        "projectPath": "C:\\Users\\Asus\\Source\\Repos\\MySide\\MySide\\MySide.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\MySide\\MySide\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Source\\Repos\\MySide\\MySide\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

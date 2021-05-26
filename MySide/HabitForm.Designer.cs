@@ -29,6 +29,7 @@ namespace MySide
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HabitForm));
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,17 +46,19 @@ namespace MySide
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 13);
+            this.label1.Location = new System.Drawing.Point(57, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.Size = new System.Drawing.Size(59, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(221, 199);
+            this.button1.Location = new System.Drawing.Point(316, 332);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(107, 38);
             this.button1.TabIndex = 1;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
@@ -64,43 +67,48 @@ namespace MySide
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 45);
+            this.label2.Location = new System.Drawing.Point(57, 75);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
+            this.label2.Size = new System.Drawing.Size(59, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "label2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 64);
+            this.label3.Location = new System.Drawing.Point(57, 107);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
+            this.label3.Size = new System.Drawing.Size(59, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(88, 77);
+            this.dateTimePicker1.Location = new System.Drawing.Point(126, 128);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker1.Size = new System.Drawing.Size(284, 31);
             this.dateTimePicker1.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 83);
+            this.label4.Location = new System.Drawing.Point(57, 138);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
+            this.label4.Size = new System.Drawing.Size(59, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "label4";
             // 
             // rbDaily
             // 
             this.rbDaily.AutoSize = true;
-            this.rbDaily.Location = new System.Drawing.Point(88, 113);
+            this.rbDaily.Location = new System.Drawing.Point(126, 188);
+            this.rbDaily.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbDaily.Name = "rbDaily";
-            this.rbDaily.Size = new System.Drawing.Size(51, 19);
+            this.rbDaily.Size = new System.Drawing.Size(76, 29);
             this.rbDaily.TabIndex = 6;
             this.rbDaily.TabStop = true;
             this.rbDaily.Text = "Daily";
@@ -109,9 +117,10 @@ namespace MySide
             // rbWeekly
             // 
             this.rbWeekly.AutoSize = true;
-            this.rbWeekly.Location = new System.Drawing.Point(189, 112);
+            this.rbWeekly.Location = new System.Drawing.Point(270, 187);
+            this.rbWeekly.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbWeekly.Name = "rbWeekly";
-            this.rbWeekly.Size = new System.Drawing.Size(63, 19);
+            this.rbWeekly.Size = new System.Drawing.Size(93, 29);
             this.rbWeekly.TabIndex = 7;
             this.rbWeekly.TabStop = true;
             this.rbWeekly.Text = "Weekly";
@@ -120,9 +129,10 @@ namespace MySide
             // rbMonthly
             // 
             this.rbMonthly.AutoSize = true;
-            this.rbMonthly.Location = new System.Drawing.Point(290, 112);
+            this.rbMonthly.Location = new System.Drawing.Point(414, 187);
+            this.rbMonthly.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbMonthly.Name = "rbMonthly";
-            this.rbMonthly.Size = new System.Drawing.Size(70, 19);
+            this.rbMonthly.Size = new System.Drawing.Size(103, 29);
             this.rbMonthly.TabIndex = 8;
             this.rbMonthly.TabStop = true;
             this.rbMonthly.Text = "Monthly";
@@ -130,24 +140,26 @@ namespace MySide
             // 
             // tbHabitName
             // 
-            this.tbHabitName.Location = new System.Drawing.Point(88, 36);
+            this.tbHabitName.Location = new System.Drawing.Point(126, 60);
+            this.tbHabitName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbHabitName.Name = "tbHabitName";
-            this.tbHabitName.Size = new System.Drawing.Size(100, 23);
+            this.tbHabitName.Size = new System.Drawing.Size(141, 31);
             this.tbHabitName.TabIndex = 9;
             // 
             // tbHabitDesc
             // 
-            this.tbHabitDesc.Location = new System.Drawing.Point(88, 55);
+            this.tbHabitDesc.Location = new System.Drawing.Point(126, 92);
+            this.tbHabitDesc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbHabitDesc.Name = "tbHabitDesc";
-            this.tbHabitDesc.Size = new System.Drawing.Size(100, 23);
+            this.tbHabitDesc.Size = new System.Drawing.Size(141, 31);
             this.tbHabitDesc.TabIndex = 10;
             // 
             // HabitForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1143, 750);
             this.Controls.Add(this.tbHabitDesc);
             this.Controls.Add(this.tbHabitName);
             this.Controls.Add(this.rbMonthly);
@@ -159,6 +171,8 @@ namespace MySide
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "HabitForm";
             this.Text = "HabitForm";
             this.Load += new System.EventHandler(this.HabitForm_Load);
