@@ -48,38 +48,38 @@ namespace MySide
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(98, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 30);
+            this.label1.Size = new System.Drawing.Size(313, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sign Up for MySide";
             // 
             // tbEmail
             // 
-            this.tbEmail.Location = new System.Drawing.Point(134, 105);
+            this.tbEmail.Location = new System.Drawing.Point(219, 148);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(192, 23);
+            this.tbEmail.Size = new System.Drawing.Size(192, 31);
             this.tbEmail.TabIndex = 1;
             // 
             // tbUsername
             // 
-            this.tbUsername.Location = new System.Drawing.Point(134, 138);
+            this.tbUsername.Location = new System.Drawing.Point(219, 181);
             this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(192, 23);
+            this.tbUsername.Size = new System.Drawing.Size(192, 31);
             this.tbUsername.TabIndex = 2;
             // 
             // tbPassword
             // 
-            this.tbPassword.Location = new System.Drawing.Point(134, 174);
+            this.tbPassword.Location = new System.Drawing.Point(219, 217);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(192, 23);
+            this.tbPassword.Size = new System.Drawing.Size(192, 31);
             this.tbPassword.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(49, 103);
+            this.label2.Location = new System.Drawing.Point(69, 145);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 21);
+            this.label2.Size = new System.Drawing.Size(71, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "Email";
             // 
@@ -87,9 +87,9 @@ namespace MySide
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(49, 136);
+            this.label3.Location = new System.Drawing.Point(69, 178);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 21);
+            this.label3.Size = new System.Drawing.Size(121, 32);
             this.label3.TabIndex = 5;
             this.label3.Text = "Username";
             // 
@@ -97,27 +97,27 @@ namespace MySide
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(49, 172);
+            this.label4.Location = new System.Drawing.Point(69, 214);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 21);
+            this.label4.Size = new System.Drawing.Size(111, 32);
             this.label4.TabIndex = 6;
             this.label4.Text = "Password";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(122, 258);
+            this.label5.Location = new System.Drawing.Point(159, 345);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(143, 15);
+            this.label5.Size = new System.Drawing.Size(215, 25);
             this.label5.TabIndex = 7;
             this.label5.Text = "Already have an account?";
             // 
             // btnSignup
             // 
             this.btnSignup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSignup.Location = new System.Drawing.Point(251, 212);
+            this.btnSignup.Location = new System.Drawing.Point(286, 279);
             this.btnSignup.Name = "btnSignup";
-            this.btnSignup.Size = new System.Drawing.Size(75, 23);
+            this.btnSignup.Size = new System.Drawing.Size(105, 35);
             this.btnSignup.TabIndex = 8;
             this.btnSignup.Text = "Sign Up";
             this.btnSignup.UseVisualStyleBackColor = true;
@@ -126,9 +126,9 @@ namespace MySide
             // btnSignin
             // 
             this.btnSignin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSignin.Location = new System.Drawing.Point(159, 276);
+            this.btnSignin.Location = new System.Drawing.Point(219, 373);
             this.btnSignin.Name = "btnSignin";
-            this.btnSignin.Size = new System.Drawing.Size(75, 23);
+            this.btnSignin.Size = new System.Drawing.Size(94, 45);
             this.btnSignin.TabIndex = 9;
             this.btnSignin.Text = "Sign In";
             this.btnSignin.UseVisualStyleBackColor = true;
@@ -138,18 +138,18 @@ namespace MySide
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(122, 65);
+            this.label6.Location = new System.Drawing.Point(133, 93);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(151, 15);
+            this.label6.Size = new System.Drawing.Size(226, 25);
             this.label6.TabIndex = 10;
             this.label6.Text = "Let\'s track your new habits!";
             // 
             // RegisForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
-            this.ClientSize = new System.Drawing.Size(415, 330);
+            this.ClientSize = new System.Drawing.Size(530, 493);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnSignin);
             this.Controls.Add(this.btnSignup);
