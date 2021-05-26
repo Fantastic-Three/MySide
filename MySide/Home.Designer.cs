@@ -44,10 +44,10 @@ namespace MySide
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("sweet purple", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(299, 9);
+            this.label1.Font = new System.Drawing.Font("sweet purple", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(259, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(344, 68);
+            this.label1.Size = new System.Drawing.Size(441, 87);
             this.label1.TabIndex = 0;
             this.label1.Text = "Welcome to MySide";
             // 
@@ -62,9 +62,9 @@ namespace MySide
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 80);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 247);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(928, 562);
+            this.pictureBox1.Size = new System.Drawing.Size(928, 395);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -73,7 +73,7 @@ namespace MySide
             // 
             this.SignUpBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.SignUpBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.SignUpBtn.Location = new System.Drawing.Point(253, 98);
+            this.SignUpBtn.Location = new System.Drawing.Point(41, 317);
             this.SignUpBtn.Name = "SignUpBtn";
             this.SignUpBtn.Size = new System.Drawing.Size(410, 76);
             this.SignUpBtn.TabIndex = 3;
@@ -86,7 +86,7 @@ namespace MySide
             this.SingInBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.SingInBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.SingInBtn.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SingInBtn.Location = new System.Drawing.Point(253, 208);
+            this.SingInBtn.Location = new System.Drawing.Point(41, 412);
             this.SingInBtn.Name = "SingInBtn";
             this.SingInBtn.Size = new System.Drawing.Size(410, 77);
             this.SingInBtn.TabIndex = 4;
@@ -98,7 +98,7 @@ namespace MySide
             // 
             this.HabitFormBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.HabitFormBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.HabitFormBtn.Location = new System.Drawing.Point(253, 318);
+            this.HabitFormBtn.Location = new System.Drawing.Point(480, 316);
             this.HabitFormBtn.Name = "HabitFormBtn";
             this.HabitFormBtn.Size = new System.Drawing.Size(410, 77);
             this.HabitFormBtn.TabIndex = 5;
@@ -110,9 +110,9 @@ namespace MySide
             // 
             this.HabitViewBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.HabitViewBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.HabitViewBtn.Location = new System.Drawing.Point(253, 425);
+            this.HabitViewBtn.Location = new System.Drawing.Point(480, 412);
             this.HabitViewBtn.Name = "HabitViewBtn";
-            this.HabitViewBtn.Size = new System.Drawing.Size(410, 79);
+            this.HabitViewBtn.Size = new System.Drawing.Size(410, 77);
             this.HabitViewBtn.TabIndex = 6;
             this.HabitViewBtn.Text = "Habit List ";
             this.HabitViewBtn.UseVisualStyleBackColor = false;
@@ -122,7 +122,7 @@ namespace MySide
             // 
             this.RemindBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(209)))), ((int)(((byte)(148)))));
             this.RemindBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.RemindBtn.Location = new System.Drawing.Point(253, 531);
+            this.RemindBtn.Location = new System.Drawing.Point(273, 511);
             this.RemindBtn.Name = "RemindBtn";
             this.RemindBtn.Size = new System.Drawing.Size(410, 80);
             this.RemindBtn.TabIndex = 7;
