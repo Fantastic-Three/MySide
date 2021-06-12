@@ -32,6 +32,7 @@ namespace MySide
                 cn.ConnectionString = "Server=tcp:myside.database.windows.net,1433;Initial Catalog=mysidedb;Persist Security Info=False;User ID=myside;Password=Myadmin0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
                 cn.Open();
                 SqlCommand cmd = new SqlCommand("select * from [dbo].[User] where Email='" + tbEmail.Text + "' and Password='" + tbPassword.Text + "'", cn);
+                cmd.Connection = cn;
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.Read())
                 {

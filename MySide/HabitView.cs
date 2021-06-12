@@ -35,6 +35,7 @@ private void HabitView_Load(object sender, EventArgs e)
             SqlDataReader reader = null;
             con.Open();
             SqlCommand cmd = new SqlCommand("SELECT namahabit FROM [dbo].[DaftarHabit]");
+            cmd.Connection = con;
             reader = cmd.ExecuteReader();
             while (reader.Read())
             {
