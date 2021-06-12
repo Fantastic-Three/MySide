@@ -90,3 +90,4 @@ C:\Users\Asus\source\repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.pdb
 C:\Users\Asus\source\repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.genruntimeconfig.cache
 C:\Users\Asus\Source\Repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.Home.resources
 C:\Users\MARNA\source\repos\Fantastic-Three\MySide\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.Home.resources
+C:\Users\Asus\source\repos\MySide\MySide\obj\Debug\netcoreapp3.1\MySide.SignUp.resources

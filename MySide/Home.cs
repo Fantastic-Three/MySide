@@ -15,20 +15,6 @@ namespace MySide
             InitializeComponent();
         }
 
-        private void SignUpBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            RegisForm regis = new RegisForm();
-            regis.ShowDialog();
-        }
-
-        private void SingInBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            LoginForm login = new LoginForm();
-            login.ShowDialog();
-        }
-
         private void HabitFormBtn_Click(object sender, EventArgs e)
         {
             this.Hide();

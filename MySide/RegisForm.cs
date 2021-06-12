@@ -67,8 +67,8 @@ namespace MySide
         private void HomeBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Home homeform = new Home();
-            homeform.ShowDialog();
+            SignUp signform = new SignUp();
+            signform.ShowDialog();
         }
 
         private void label1_Click(object sender, EventArgs e)

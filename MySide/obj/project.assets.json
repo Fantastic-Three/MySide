@@ -1025,19 +1025,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MARNA\\.nuget\\packages\\": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MARNA\\source\\repos\\Fantastic-Three\\MySide\\MySide\\MySide\\MySide.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\MySide\\MySide\\MySide.csproj",
       "projectName": "MySide",
-      "projectPath": "C:\\Users\\MARNA\\source\\repos\\Fantastic-Three\\MySide\\MySide\\MySide\\MySide.csproj",
-      "packagesPath": "C:\\Users\\MARNA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MARNA\\source\\repos\\Fantastic-Three\\MySide\\MySide\\MySide\\obj\\",
+      "projectPath": "C:\\Users\\Asus\\source\\repos\\MySide\\MySide\\MySide.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\source\\repos\\MySide\\MySide\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MARNA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

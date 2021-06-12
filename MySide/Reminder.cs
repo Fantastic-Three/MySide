@@ -38,7 +38,7 @@ namespace MySide
                 SqlConnection con = new SqlConnection();
                 con.ConnectionString = "Server=tcp:myside.database.windows.net,1433;Initial Catalog=mysidedb;Persist Security Info=False;User ID=myside;Password=Myadmin0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
                 con.Open();
-                SqlCommand cmd1 = new SqlCommand("SELECT namahabit, keterangan FROM [dbo.DaftarHabit] WHERE hdate = CURDATE()");
+                SqlCommand cmd1 = new SqlCommand("SELECT namahabit, keterangan FROM [dbo.DaftarHabit] WHERE hdate = CONVERT(date,GETDATE())");
 
                 //loop through all selected items
                 foreach (object item in checkedListBox1.CheckedItems)

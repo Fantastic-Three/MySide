@@ -131,7 +131,7 @@ namespace MySide
             this.HomeBtn.Name = "HomeBtn";
             this.HomeBtn.Size = new System.Drawing.Size(107, 38);
             this.HomeBtn.TabIndex = 8;
-            this.HomeBtn.Text = "Home";
+            this.HomeBtn.Text = "Back";
             this.HomeBtn.UseVisualStyleBackColor = true;
             this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
             // 
