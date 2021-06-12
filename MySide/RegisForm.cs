@@ -70,5 +70,10 @@ namespace MySide
             Home homeform = new Home();
             homeform.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
