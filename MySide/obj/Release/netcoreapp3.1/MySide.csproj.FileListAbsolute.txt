@@ -29,3 +29,4 @@ C:\Users\MARNA\Source\Repos\Fantastic-Three\MySide\MySide\MySide\obj\Release\net
 C:\Users\MARNA\Source\Repos\Fantastic-Three\MySide\MySide\MySide\obj\Release\netcoreapp3.1\MySide.dll
 C:\Users\MARNA\Source\Repos\Fantastic-Three\MySide\MySide\MySide\obj\Release\netcoreapp3.1\MySide.pdb
 C:\Users\MARNA\Source\Repos\Fantastic-Three\MySide\MySide\MySide\obj\Release\netcoreapp3.1\MySide.genruntimeconfig.cache
+C:\Users\MARNA\Source\Repos\Fantastic-Three\MySide\MySide\MySide\obj\Release\netcoreapp3.1\MySide.SignUp.resources
