@@ -32,30 +32,9 @@ namespace MySide
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (checkedListBox1.SelectedItems.Count > 0)
-            {
-
-                SqlConnection con = new SqlConnection();
-                con.ConnectionString = "Server=tcp:myside.database.windows.net,1433;Initial Catalog=mysidedb;Persist Security Info=False;User ID=myside;Password=Myadmin0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-                con.Open();
-                SqlCommand cmd1 = new SqlCommand("SELECT namahabit, keterangan FROM [dbo.DaftarHabit] WHERE hdate = CONVERT(date,GETDATE())");
-
-                //loop through all selected items
-                foreach (object item in checkedListBox1.CheckedItems)
-                {
-                    //convert item to string
-                    string checkedItem = item.ToString();
-
-                    //insert item to database
-                    SqlCommand cmd2 = new SqlCommand("Insert into [dbo].[DaftarHabit](checklist) Values (@checklist)", con);
-                    cmd2.Parameters.AddWithValue("@checklist", checkedItem); //add item
-                    cmd2.ExecuteNonQuery();
-                }
-
-                //close connection
-                con.Close();
+            
                 MessageBox.Show("Data has been saved");
-            }
+            
         }
 
         private void HomeBtn_Click(object sender, EventArgs e)
